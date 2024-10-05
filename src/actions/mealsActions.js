@@ -55,3 +55,4 @@ export const startFetchMealsBySearch = async(dispatch, searchTerm) => {
         dispatch({type: FETCH_MEALS_ERROR, payload: error.message});
     }
 }
+s
